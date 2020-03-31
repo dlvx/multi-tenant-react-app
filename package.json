@@ -1,0 +1,25 @@
+{
+  "name": "multi-tenant-react-app",
+  "version": "1.0.0",
+  "description": "A multi tenant React app with server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlvx/multi-tenant-react-app.git"
+  },
+  "author": "José Del Valle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlvx/multi-tenant-react-app/issues"
+  },
+  "homepage": "https://github.com/dlvx/multi-tenant-react-app#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
