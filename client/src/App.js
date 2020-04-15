@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { getConfig } from './services/config.service';
+import Routes from './Routes';
 
 function App() {
 
@@ -22,18 +23,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
           {
-            loading && 'Getting config from server...'
+            loading && <img src={logo} className="App-logo" alt="logo" />
           }
           {
-            data.error && 'Error getting config from server'
+            data.error && <p>'Error getting config from server'</p>
           }
-          {
-            data.name && `The client is: ${data.name}`
-          }
-        </p>
+          
+          <Routes routes={data.routes}/>
       </header>
     </div>
   );

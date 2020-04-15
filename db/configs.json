@@ -1,10 +1,26 @@
 [
   {
     "clientId": 1,
-    "name": "Client A"
+    "name": "Client A",
+    "routes": {
+      "home": {
+        "path": "/",
+        "component": "HomePage"
+      },
+      "product": {
+        "path": "/product/:productId",
+        "component": "ProductPage"
+      }
+    }
   },
   {
     "clientId": 2,
-    "name": "Client B"
+    "name": "Client B",
+    "routes": {
+      "home": {
+        "path": "/",
+        "component": "ProductPage"
+      }
+    }
   }
 ]

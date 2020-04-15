@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-bar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-bar ul li {
+  margin: 10px;
+}
+
+.nav-bar ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar ul li a.active{
+  color: cornflowerblue;
+}
