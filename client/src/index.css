@@ -38,3 +38,55 @@ code {
 .nav-bar ul li a.active{
   color: cornflowerblue;
 }
+
+.cards-container {
+  display: flex;
+  margin: 20px 0;
+}
+
+.card-container {
+  width: 320px;
+  margin: 5px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-header, .card-footer {
+  padding: 10px;
+}
+
+.card-title, .card-description {
+  margin: 0;
+}
+
+.card-image-rd {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-description {
+  font-size: 18px;
+  text-align: left;
+}
+
+.featured-product {
+  display: flex;
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  height: 240px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.featured-img {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.featured-content {
+  padding: 10px;
+  text-align: left;
+}

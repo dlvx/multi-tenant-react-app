@@ -11,6 +11,13 @@
         "path": "/product/:productId",
         "component": "ProductPage"
       }
+    },
+    "components": {
+      "card": {
+        "showHeader": true,
+        "showImage": true,
+        "showFooter": true
+      }
     }
   },
   {
@@ -20,6 +27,13 @@
       "home": {
         "path": "/",
         "component": "ProductPage"
+      }
+    },
+    "components": {
+      "card": {
+        "showHeader": false,
+        "showImage": true,
+        "showFooter": true
       }
     }
   }
